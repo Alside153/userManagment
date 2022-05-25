@@ -1,0 +1,153 @@
+.StudentDiv{
+    border: 1px solid black;
+    margin-bottom: 0.2cm;
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 0;
+}
+
+#TotalCssSettings input[type="button"]{
+    cursor: pointer;
+}
+
+#isRed{
+    border-color: red;
+}
+
+#isGreen{
+    border-color: lightgreen;
+}
+
+.StudentDiv input[type="text"],[type="email"]{
+    width: 100px;
+    height: 25px;
+    margin:5px;
+}
+
+#OtherDataDiv{
+    border: 1px solid black;
+    background-color: grey;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.StudentDiv input[type="button"]{
+    background-color: orange;
+    border: 1px solid lightgreen;
+    padding: 5px 15px;
+    text-align: center;
+    display: cell;
+}
+
+#OtherDataDataDiv{
+    border: 1px solid black;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 10px;
+}
+#OtherDataDataDiv input[type="text"]{
+    background-color: lightgrey;
+}
+
+.isVis{
+    display: block;
+}
+.isVis input[type="text"]{
+    background-color: lightgrey;
+    align-content: center;
+}
+.isNotVis{
+    display: none;
+}
+
+.MainBorder{
+    border: 1px solid black;
+    width: 350px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: 50px;
+    float: left;
+}
+.MainBorder input[type="text"]{
+    width: 100px;
+}
+
+.backColoredRed{
+    background-color: lightsalmon;
+}
+.backColoredRed input[type="text"]{
+    background-color: lightsalmon;
+}
+.backColoredRed input[type="email"]{
+    background-color: lightsalmon;
+}
+
+.InfoContainer{
+    border: 2px solid black;
+    display:grid;
+    margin: 10px;
+    padding: 10px;
+    content:flex;
+
+}
+
+.AddButtonInfo{
+    align-items: right;
+    text-align: right;
+    display: inline;
+    content: flex;
+    align-self: right;
+    float: right;
+    margin-right: 10px;
+}
+
+.WholeInfoAdded{
+    width:350px;
+    float: right;
+    text-align: left;
+    padding: 10px;
+}
+
+.MarkedCompleted{
+    display: inline;
+    float: right;
+}
+.smallInfoContainer{
+    border: 1px solid purple;
+    display:grid;
+    margin: 10px;
+    padding: 10px;
+    content:flex;
+}
+
+#MainInfoApp{
+    float:center right;
+    margin: 70px
+}
+#NewUserInfoAdd{
+    width:350px;
+    float: right;
+    text-align: left;
+    padding: 10px;
+    display:inline;
+    border: 1px solid purple;
+    margin: 10px;
+    padding: 10px;
+    padding-top:30px ;
+    padding-left: 20px;
+}
+#NewUserInfoAdd input[type="button"]{
+    background-color: orange;
+    border: 1px solid lightgreen;
+    padding: 5px 15px;
+    text-align: center;
+    display: cell;
+    width: 100px;
+    float: right;
+    margin: 10px;
+}
